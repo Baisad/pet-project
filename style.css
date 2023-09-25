@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #348889;
+    overflow: hidden;
+}
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 64px;
+    margin-top: 50px;
+    text-align: center;
+}
+.main__section{
+    display: flex;
+    justify-content: space-around;
+    width: 1450px;
+    height: 600px;
+}
+
+.main__block{
+    background-color: white;
+    width: 320px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.main__block_a{
+    background-color: #23BBBB;
+}
+.main__block_b{
+    background-color: #9FF8EF;
+}
+.main__block_c{
+    background-color: #FA7F08;
+}
+.main__block_d{
+    background-color: #F24505;
+}
+.block__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 75px;
+    background: #23BBBB;
+    border-radius: 20px;
+    border: 1px black solid;
+    
+}
+.block__btn p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    letter-spacing: 1.80px;
+}
+
+.main__block{
+    padding-bottom: 20px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.block__btn_a{
+    background-color: #23BBBB;
+}
+.block__btn_b{
+    background-color: #9FF8EF;
+}
+.block__btn_c{
+    background-color: #FA7F08;
+}
+.block__btn_d{
+    background-color: #F24505;
+}
+
