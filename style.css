@@ -3,41 +3,47 @@
 
 body{
     margin: 0 auto;
-    padding: 0 auto;
-    background-color: #348889;
-    overflow: hidden;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    /* overflow: hidden; */
+    
 }
 h1{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 64px;
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
 }
 .main__section{
+    margin: auto;
     display: flex;
-    justify-content: space-around;
-    width: 1450px;
-    height: 600px;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+    width: 80%;
 }
 
 .main__block{
     background-color: white;
-    width: 320px;
-    height: 500px;
+    width: 16.67vw;
+    height: 400px;
     border-radius: 20px;
 }
 
 .main__block_a{
-    background-color: #23BBBB;
+    background: linear-gradient(135deg, #FEB692 0%, #EA5455 100%);
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
 }
 .main__block_b{
-    background-color: #9FF8EF;
+    background: linear-gradient(135deg, #CE9FFC 0%, #7367F0 100%);
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
 }
 .main__block_c{
-    background-color: #FA7F08;
+    background: linear-gradient(135deg, #FFD3A5 0%, #FD6585 100%);
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
 }
 .main__block_d{
-    background-color: #F24505;
+    background: linear-gradient(135deg, #FEC163 0%, #DE4313 100%);
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
 }
 .block__btn{
     display: flex;
@@ -45,14 +51,13 @@ h1{
     justify-content: center;
     width: 150px;
     height: 75px;
-    background: #23BBBB;
     border-radius: 20px;
-    border: 1px black solid;
+    cursor: pointer;
     
 }
 .block__btn p{
     font-family: 'Roboto', sans-serif;
-    font-size: 36px;
+    font-size: 1.5em;
     letter-spacing: 1.80px;
 }
 
@@ -63,15 +68,14 @@ h1{
     justify-content: center;
 }
 .block__btn_a{
-    background-color: #23BBBB;
+    background: rgba(237, 99, 94, 0.40);
 }
 .block__btn_b{
-    background-color: #9FF8EF;
+    background-color: rgba(128, 112, 242, 0.40);
 }
 .block__btn_c{
-    background-color: #FA7F08;
+    background: rgba(254, 117, 138, 0.40);
 }
 .block__btn_d{
-    background-color: #F24505;
+    background: rgba(227, 86, 31, 0.40);
 }
-
